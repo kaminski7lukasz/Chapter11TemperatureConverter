@@ -3,26 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{524B5878-CE98-4755-940F-E1AF56461564}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConverterWebApi", "TemperatureConverterWebApi\TemperatureConverterWebApi.csproj", "{70842C42-2E2A-4D4B-B157-D680648DD167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.TESTS", "API.Tests\API.TESTS.csproj", "{7144B657-6AE7-4A66-A4CD-E37A608F4B4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConverterUnitTests", "TemperatureConverterUnitTests\TemperatureConverterUnitTests.csproj", "{46CA5C67-0AF9-42BF-A4F6-2C5CC9C549B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70842C42-2E2A-4D4B-B157-D680648DD167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70842C42-2E2A-4D4B-B157-D680648DD167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70842C42-2E2A-4D4B-B157-D680648DD167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70842C42-2E2A-4D4B-B157-D680648DD167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CA5C67-0AF9-42BF-A4F6-2C5CC9C549B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CA5C67-0AF9-42BF-A4F6-2C5CC9C549B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CA5C67-0AF9-42BF-A4F6-2C5CC9C549B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CA5C67-0AF9-42BF-A4F6-2C5CC9C549B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{524B5878-CE98-4755-940F-E1AF56461564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{524B5878-CE98-4755-940F-E1AF56461564}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{524B5878-CE98-4755-940F-E1AF56461564}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{524B5878-CE98-4755-940F-E1AF56461564}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7144B657-6AE7-4A66-A4CD-E37A608F4B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7144B657-6AE7-4A66-A4CD-E37A608F4B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7144B657-6AE7-4A66-A4CD-E37A608F4B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7144B657-6AE7-4A66-A4CD-E37A608F4B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
