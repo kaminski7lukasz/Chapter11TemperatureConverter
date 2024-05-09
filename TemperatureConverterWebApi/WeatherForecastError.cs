@@ -10,4 +10,4 @@ namespace TemperatureConverterWebApi
 
         public string? Summary { get; set; }
     }
-}
+
